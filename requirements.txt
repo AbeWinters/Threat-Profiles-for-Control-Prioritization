@@ -2,3 +2,4 @@ jupyterlab
 pandas
 PyPDF2
 openpyxl
+seaborn
