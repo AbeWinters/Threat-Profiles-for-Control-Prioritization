@@ -5,17 +5,21 @@ The end goal is to generate a threat profile for an industry with prioritized ac
 ## High level overview
 ![high level overview](./docs/images/High%20level%20methodology.png)
 
-## Sources
-This repository makes use of the following sources:
-- [MITRE ATT&CK](https://attack.mitre.org/). To access the data, their [attackcti](https://attackcti.com/intro.html) package is used. 
-- [ETDA](https://apt.etda.or.th/cgi-bin/aptgroups.cgi)
-- tropChaud's [Categorized Adversary TTPs](https://github.com/tropChaud/Categorized-Adversary-TTPs).
+## Installation
+To run the notebooks, clone this repository and install the required packages using:
 
+`pip install -r requirements.txt`
 
 ## The notebooks
 Based on the three methods from the thesis, three models will be tested. 
 At first, the skimming method is implemented based on the resulting [spreadsheet](./Threat%20reports.xlsx) build from skimming the reports.
 This list is used to create a basis of the possible threats and actors and the reports are scanned using these search words. The result is a generated dictionary of the number of occurences per report. This is further enhanced with data from public sources to rank actors and ttps, and finally prioritize controls. This pipeline can be found in [01. Manual extraction.ipynb](./01.%20Manual%20extraction.ipynb)
+
+## Sources
+This repository makes use of the following sources:
+- [MITRE ATT&CK](https://attack.mitre.org/). To access the data, their [attackcti](https://attackcti.com/intro.html) package is used. 
+- [ETDA](https://apt.etda.or.th/cgi-bin/aptgroups.cgi)
+- tropChaud's [Categorized Adversary TTPs](https://github.com/tropChaud/Categorized-Adversary-TTPs).
 
 ## Challenges
 - A report can mention threats or actors, for example in a comparison to a previous period, but not actually report these threats as active in this period. These irrelevant threats should be left out. A way of doing this is setting a threshold on the number of hits within a report. Another way is observing the context in a sentence or paragraph in which a threat is mentioned. 
