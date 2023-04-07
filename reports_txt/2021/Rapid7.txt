@@ -5,33 +5,33 @@ Intelligence Report
 Jake Baines, Lead Security Researcher at Rapid7
 Spencer McIntyre, Lead Security Researcher at Rapid7
 Brendan Watters, Senior Security Researcher at Rapid72021 Vulnerability Intelligence Report 2TABLE OF CONTENTS
-Executive Summary  4
+Executive Summary 4
 Big Picture 6
 2021 Exploited and Significant Vulnerabilities 9
-          Time to Exploitation  10
-     Widespread Threats   11
+          Time to Exploitation 10
+     Widespread Threats  11
      Other Known Exploited Vulnerabilities 16
-     Impending Threats  18
+     Impending Threats 18
 2021 Attack Trends 21
      Attacker Utilities and Vulnerability Classes 21
            A Little Goes A Long Way: Server-Side Request Forgery 22
-Attack Chains  24
+Attack Chains 24
 Bring Your Own Vulnerable Driver (BYOVD) 26
 Chain Reaction: Present and Future Software Supply Chain Risk 27
  Spotlight: Key 2021 Windows Vulnerabilities 29
 Evacuate the (On) Premises: We Need to Talk About Exchange 29
-Nightmares and Novelties  30
+Nightmares and Novelties 30
 Practical Guidance for Defenders 33
-Appendix  36
-      Full Dataset  36
-      Notes on Methodology  40
- Threat Categorization  41
- Ransomware Citations  41
- Calculating Time to Known Exploitation (TTKE)  41
-Glossary of Terms 42
- Attacker Utilities  42
- Vulnerability Classes  42
-References  44Executive Summary2021 Vulnerability Intelligence Report 4Security, IT, and other teams tasked with vulnerability management and risk reduction operate in high-urgency, high-stakes 
+Appendix 36
+      Full Dataset 36
+      Notes on Methodology 40
+ Threat Categorization 41
+ Ransomware Citations 41
+ Calculating Time to Known Exploitation (TTKE) 41
+Glossary of Terms 4 2
+ Attacker Utilities 42
+ Vulnerability Classes 42
+References 44Executive Summary2021 Vulnerability Intelligence Report 4Security, IT, and other teams tasked with vulnerability management and risk reduction operate in high-urgency, high-stakes 
 environments where informed decision-making hinges on the ability to quickly separate signal from a sea of perpetual noise. 
 When a new potential threat emerges, information security professionals often find themselves needing to translate vague 
 descriptions and untested research artifacts into actionable intelligence for their own particular risk models. 
@@ -237,7 +237,7 @@ vulnerability), we call it a potential threat. There is the
 potential for it to turn into a true threat, but there are 
 additional components that need to come to fruition 
 before it has a real impact to most organizations.
-Impending Threat (14%) Threat (20%) Widespread Threat (66%)2021 Vulnerabilities by Threat Status
+Impending Threat (14%)Threat (20%)Widespread Threat (66%)2021 Vulnerabilities by Threat Status
 2021 Vulnerabilities by Threat Status2021 Vulnerability Intelligence Report 10Time to Exploitation
 One of the key metrics Rapid7 research teams track 
 is the time between when vulnerabilities we analyze 
@@ -853,21 +853,11 @@ and Threat Status
 Impending Threat
 Threat
 Widespread Threat
-0 5 10 15 200 5 10 15 200 5 10 15 20
-0 5 10 15 200 5 10 15 200 5 10 15 20Information DisclosureLocal Code
-ExecutionNetwork Infrastructure
-CompromiseNetwork PivotRemote Code
-Execution
-Information DisclosureNetwork PivotNetwork Infrastructure
-CompromiseRemote Code
-ExecutionLocal Code
-Execution
-Local Code
-ExecutionInformation DisclosureNetwork Infrastructure
-CompromiseNetwork PivotRemote Code
-Execution
-# Vulnerabilities2021 Vulnerabilities by
-Attacker Utility and Threat StatusMuch like in 2020, vulnerabilities that provided attackers 
+051015200510152005101520
+051015200510152005101520Information DisclosureLocal CodeExecutionNetwork InfrastructureCompromiseNetwork PivotRemote CodeExecution
+Information DisclosureNetwork PivotNetwork InfrastructureCompromiseRemote CodeExecutionLocal CodeExecution
+Local CodeExecutionInformation DisclosureNetwork InfrastructureCompromiseNetwork PivotRemote CodeExecution
+# Vulnerabilities2021 Vulnerabilities byAttacker Utility and Threat StatusMuch like in 2020, vulnerabilities that provided attackers 
 with remote code execution opportunities—the ability 
 to remotely execute a payload on a target system—are 
 the most represented type of attacker utility across 
@@ -915,14 +905,10 @@ this category. 2021 Vulnerability Intelligence Report 22
 Impending Threat
 Threat
 Widespread Threat
-0 5 10 150 5 10 150 5 10 15Memory CorruptionDeserializationInjectionImproper Access
-Control
-DeserializationMemory CorruptionInjectionImproper Access
-Control
-Memory CorruptionDeserializationInjectionImproper Access
-Control
-# Vulnerabilities2021 Vulnerabilities by
-Class and Threat StatusLocal code execution was less prevalent among significant 
+051015051015051015Memory CorruptionDeserializationInjectionImproper AccessControl
+DeserializationMemory CorruptionInjectionImproper AccessControl
+Memory CorruptionDeserializationInjectionImproper AccessControl
+# Vulnerabilities2021 Vulnerabilities byClass and Threat StatusLocal code execution was less prevalent among significant 
 threats in 2021, which is hardly surprising since it’s much 
 easier to launch internet-scale attacks from, well, the 
 internet. Still, CVE-2021-30657 , a nifty security feature 
@@ -1446,13 +1432,11 @@ Unpatched
 31,369Patched
 110,799Patched
 174,578
-Possibly Patched
+PossiblyPatched
 43,337
-Possibly Patched
+PossiblyPatched
 3,765
-March 2021 January 20222021 was a wild ride for folks running Microsoft Exchange
-We saw thousands fewer Exchange servers on the internet by the end of the year,
-and over all improved patching for the ones that remained connected to the internet.Exchange Patching: How It Started / How It's GoingIn addition to the seven Exchange vulnerabilities 
+March 2021January 20222021 was a wild ride for folks running Microsoft ExchangeWe saw thousands fewer Exchange servers on the internet by the end of the year,and over all improved patching for the ones that remained connected to the internet.Exchange Patching: How It Started / How It's GoingIn addition to the seven Exchange vulnerabilities 
 collectively included in the ProxyLogon and ProxyShell 
 chains, at least three other Microsoft Exchange Server 
 CVEs were used in the wild in 2021 ( CVE-2021-42321 , a 

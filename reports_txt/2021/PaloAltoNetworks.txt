@@ -34,9 +34,9 @@ Patching Recommendations to Keep Your
 Organization’s Systems Up to Date  44
 Recommendations to Secure Your Cloud Environment  44
 Recommendations to Prevent Business Email Compromise  45
-Methodology  4 6
-Unit 42 Incident Response Methodology  47
-About Palo Alto Networks & Unit 42 48
+Methodology 4 6
+Unit 42 Incident Response Methodology  4 7
+About Palo Alto Networks & Unit 42 4 8
 Palo Alto Networks Prevent, Detect,  
 and Respond Capabilities 493
 INCIDENT RESPONSE REPORT 2022Foreword
@@ -379,26 +379,13 @@ compromised, cybercriminals leverage
 their access to initiate or redirect 
 the transfer of business funds for 
 personal gain. 02Types of Investigations Conducted by Unit 42 in 2022
-Ransomware
-36%
-Business Email Compromise (BEC)
-34%Network Intrusion
-14%
-Insider Threat
-5%
-Extortion – 
-No Encryption
-4%
+Ransomware36%
+Business Email Compromise (BEC)34%Network Intrusion14%
+Insider Threat5%Extortion – No Encryption4%
 PCI Investigation
 1%
-Web App 
-Compromise
-1%Exposure
-Investigation
-1%
-Other Types
-<1%Other Digital
-Forensics
+Web App Compromise
+1%ExposureInvestigation1%Other Types<1% Other DigitalForensics
 2%
 10
 INCIDENT RESPONSE REPORT 2022WHAT ATTACKERS ARE GOING AFTER IN 2022
@@ -425,32 +412,20 @@ Unfortunately, it is easy to expose
 RDP unintentionally, which has led to 
 it becoming a popular initial attack 
 vector among threat actors.Phishing
-37%Software
-Vulnerabilities
+37%SoftwareVulnerabilities
 31%
-4%
-3%6%
-5%
-5%9%
+4%3%6%5%5%9%
 Abuse of Trusted
-Relationship(s) / Tool(s)Previously
-Compromised
-Credentials
-Insider Threat
-OthersSocial EngineeringBrute-force
-Credential 
-AttacksSuspected Means of Initial Access
+Relationship(s) / Tool(s)PreviouslyCompromisedCredentialsInsider Threat
+Others
+Social EngineeringBrute-forceCredential AttacksSuspected Means of Initial Access
 Log4j
-14%SonicWall
-CVEs
-7%Other
-Vulnerabilities
+14%SonicWallCVEs
+7%OtherVulnerabilities
 13%
-4%3%
-5%
+4%3%5%
 ProxyShell
-55%ProxyLogonZoho ManageEngine
-ADSelfService PlusFortiNet CVEsExploited Vulnerabilities in Unit 42 Cases
+55%ProxyLogonZoho ManageEngineADSelfService PlusFortiNet CVEsExploited Vulnerabilities in Unit 42 Cases
 11
 INCIDENT RESPONSE REPORT 2022WHAT ATTACKERS ARE GOING AFTER IN 2022
 Figure 2: Suspected Means of Initial Access
@@ -604,15 +579,13 @@ of insider threat cases were caused by a
 disgruntled ex-employee with enough sensitive 
 data to become a malicious threat actor.WHAT ATTACKERS ARE GOING AFTER IN 2022
 Figure 4: Top Affected Industries in 2022Top Affected Industries in 2022
-0 10
-RECORD COUNT20 30 40 50 60 70 80 90Finance
-Professional &
-Legal Services
+010
+RECORD COUNT20304050607080 90Finance
+Professional &Legal Services
 Manufacturing
 Healthcare
 High Technology
-Wholesale
-& Retail
+Wholesale& Retail
 Education
 Hospitality
 Key Insight: Insider threats often 
@@ -764,15 +737,11 @@ awareness of possible attack vectors
 and a strong incident response plan  for 
 mitigating damage after an initial breach.17
 INCIDENT RESPONSE REPORT 2022SPOTLIGHT: RANSOMWARE—A FAVORITE CASH COW FOR CYBERCRIMINALS
-Brute-force
-Credential Attacks
+Brute-forceCredential Attacks
 20%Phishing
-12%8%8%4% Software
-Vulnerabilities
+12%8%8%4%SoftwareVulnerabilities
 48%
-Previously
-Compromised
-CredentialsAbuse of Trusted 
+PreviouslyCompromisedCredentialsAbuse of Trusted 
 Relationship(s) / Tool(s)OtherRansomware - Suspected Means of Initial Access
 Figure 5: Ransomware – Suspected Means of Initial AccessRansomware: Initial Access
 Ransomware threat actors appear to 
@@ -824,30 +793,22 @@ only cases where a ransom was paid and do
 not directly relate to the average amount 
 demanded shown in Figure 6.)
 $1.63M Manufacturing
-$1.41M Healthcare$3.05MWholesale
-& Retail$5.20M Real EstateFinance $7.96M
-Professional & 
-Legal ServicesConstruction $2.02M
-Hospitality $1.47MTransportation
-& Logistics$1.53M
+$1.41M Healthcare$3.05MWholesale& Retail$5.20M Real EstateFinance $7.96M
+Professional & Legal ServicesConstruction $2.02M
+Hospitality $1.47MTransportation& Logistics$1.53M
 EducationHigh Tech $2.52M
-$8M $7M $6M $5M $4M $3M $2M $1M $0Average Ransom Demand by Industry
+$8M$7M$6M$5M$4M$3M$2M$1M$0Average Ransom Demand by Industry
 $0.63M$0.69M
 Figure 6: Average Ransom Demand by Industry
 MEDIAN RANSOM PAID MEDIAN RANSOM DEMAND$2M
 $1M$1.5M
 $0.5M
-$0When Ransom is Paid: 
-Median Reduction from Initial Demand by Industry
-Professional & 
-Legal Services-51%
+$0When Ransom is Paid: Median Reduction from Initial Demand by Industry
+Professional & Legal Services-51%
 Manufacturing-74%
-Wholesale
-& Retail-62%
-Transportation
-& Logistics-70%
-High
-Technology-60%
+Wholesale& Retail-62%
+Transportation& Logistics-70%
+HighTechnology-60%
 Healthcare-85%
 Finance-53%
 Figure 7: When Ransom is Paid: Median Reduction  from Initial Demand by IndustryKey Insight: Ransomware 
@@ -892,31 +853,13 @@ and their TTPs, refer to the
 Threat Report 2022  or our 
 corresponding webinar .Conti
 LockBit / LockBit 2.0
-Hive
-Dharma
-PYSA
-Phobos
-ALPHV / BlackCat
-REvil
-BlackMatter
-Other VariantsMost Active Ransomware Variants in 2022 - 
-Unit 42 Incident Response Data
-22%
-14%
-8%
-7%
-7%
-7%
-6%
-5%
-5%
-18%
+HiveDharmaPYSAPhobosALPHV / BlackCatREvilBlackMatterOther VariantsMost Active Ransomware Variants in 2022 - Unit 42 Incident Response Data
+22%14%8%7%7%7%6%5%5%18%
 Figure 8: Top Confirmed Ransomware Actors Observed in Unit 42 Cases20
 INCIDENT RESPONSE REPORT 2022SPOTLIGHT: RANSOMWARE—A FAVORITE CASH COW FOR CYBERCRIMINALS
 Figure 9A: Industries Affected by Ransomware vs Ransomware Groups
 Professional & Legal Services
-LockBit /
-LockBit 2.0
+LockBit /LockBit 2.0
 Conti
 Hive
 BlackCat
@@ -930,8 +873,7 @@ Education
 High Technology
 Hospitality
 PYSA
-LockBit /
-LockBit 2.0
+LockBit /LockBit 2.0
 Conti
 Hive
 BlackCat
@@ -940,8 +882,7 @@ REvil
 BlackMatter
 Phobos
 PYSA
-LockBit /
-LockBit 2.0
+LockBit /LockBit 2.0
 Conti
 Hive
 BlackCat
@@ -950,8 +891,7 @@ REvil
 BlackMatter
 Phobos
 PYSA
-LockBit /
-LockBit 2.0
+LockBit /LockBit 2.0
 Conti
 Hive
 BlackCat
@@ -960,8 +900,7 @@ REvil
 BlackMatter
 Phobos
 PYSA
-LockBit /
-LockBit 2.0
+LockBit /LockBit 2.0
 Conti
 Hive
 BlackCat
@@ -970,8 +909,7 @@ REvil
 BlackMatter
 Phobos
 PYSA
-LockBit /
-LockBit 2.0
+LockBit /LockBit 2.0
 Conti
 Hive
 BlackCat
@@ -983,8 +921,7 @@ PYSA
 Industries Affected by Ransomware vs Ransomware Groups21
 INCIDENT RESPONSE REPORT 2022SPOTLIGHT: RANSOMWARE—A FAVORITE CASH COW FOR CYBERCRIMINALS
 Figure 9B: Industries Affected by Ransomware vs Ransomware Groups
-LockBit /
-LockBit 2.0
+LockBit /LockBit 2.0
 Conti
 Hive
 BlackCat
@@ -993,8 +930,7 @@ REvil
 BlackMatter
 Phobos
 PYSA
-LockBit /
-LockBit 2.0
+LockBit /LockBit 2.0
 Conti
 Hive
 BlackCat
@@ -1003,8 +939,7 @@ REvil
 BlackMatter
 Phobos
 PYSA
-LockBit /
-LockBit 2.0
+LockBit /LockBit 2.0
 Conti
 Hive
 BlackCat
@@ -1013,8 +948,7 @@ REvil
 BlackMatter
 Phobos
 PYSA
-LockBit /
-LockBit 2.0
+LockBit /LockBit 2.0
 Conti
 Hive
 BlackCat
@@ -1023,8 +957,7 @@ REvil
 BlackMatter
 Phobos
 PYSA
-LockBit /
-LockBit 2.0
+LockBit /LockBit 2.0
 Conti
 Hive
 BlackCat
@@ -1033,8 +966,7 @@ REvil
 BlackMatter
 Phobos
 PYSA
-LockBit /
-LockBit 2.0
+LockBit /LockBit 2.0
 Conti
 Hive
 BlackCat

@@ -255,7 +255,7 @@ HacktivistIntrusion activity undertaken to gain momentum, visibility
 or publicity for a cause or ideology
 UnattributedInsufficient data were available to make a confident 
 attribution  Types of Threat Activity
-Q1 20 20 Q2 20 20 Q3 20 20 Q4 20 20 Q1 20 21 Q2 20 21 Q3 20 21 Q4 20 21
+Q1 2020 Q2 2020 Q3 2020 Q4 2020 Q1 2021 Q2 2021 Q3 2021 Q4 2021
 Figure 1. Quarterly Growth in Interactive Intrusion Campaigns by Threat Type, Q1 2020 
 to Q4 2021Interactive Intrusion Activity Over Time
 Unattributed T argeted Hacktivist eCrime2022  
@@ -291,7 +291,7 @@ data is to adversaries.
 1,000
 500
 0
-2021 2020
+20212020
 Number of attacksIncrease in ransomware-
 related data leaks in 2021 82 %
 2,686
@@ -322,20 +322,7 @@ possible, demonstrating that the ever-adaptable adversary remains the key threat
 within the eCrime landscape.2021 Themes
 Ransomware and the Ever-adaptable  
 Adversary
-Industrials and
-Engineerin g
-Manuf acturin g
-Technology
-Professional
- Services
-Financial
-Services
-Healthca re
-Consumer
- Goods
-Legal
-Academic
-Logistics2020 2021
+Industrials andEngineeringManufacturingTechnologyProfessional ServicesFinancialServicesHealthcareConsumer GoodsLegalAcademicLogistics2020 2021
 Figure 3. Comparison of Data Leaks by Sector (Top 10), 2020 vs. 2021500
  400
 300
@@ -504,12 +491,8 @@ whether by opening malicious documents or other files attached to emails or visi
 websites hosting malicious code. In contrast, exploits deployed by these actors in 
 2021 focused heavily on vulnerabilities in internet-facing devices or services.2021 Themes
 /uni2197
-2,686 /uni21971,474
-Number 
-of attacksChina-nexus actors exploited 
-12 published vulnerabilities
-China-nexus actors exploited 
-2 published vulnerabilities202020212022  
+2,686 /uni21971,474Number of attacksChina-nexus actors exploited 12 published vulnerabilitiesChina-nexus actors exploited 2 published vulnerabilities
+202020212022  
 Global Threat Report CrowdStrike17
 Figure 4. Timeline of Zero-day Exploits Deployed by China-nexus Actors in 2021
 1  Relevant zero-day vulnerabilities exploited in connection to this  activity affected Zoho ManageEngine  
@@ -641,30 +624,10 @@ moderate confidence based on the substantial number of incidents facilitated by
 multistage exploit chains — such as ProxyShell and ProxyLogon — that proved 
 commonplace during 2021. 
 NOV DEC
-Log4Shell
-Zero-day
-Log4Shell
-in the Wild
-NOV /one.cap/five.cap
-NOV /two.cap/four.cap
-NOV /two.cap/nine.capLog4j2 RCE 
-reported 
-to ApacheWeaponized exploit
-released as Zero-day
-RCE vulnerability
-disclosed as
-CVE-2021-44228Partial
-ﬁx
-DEC /six.cap
-DEC /nine.capXMRig and Muhstik
-observed via Log4Shell DEC /one.cap/one.capSuspected NEMESIS
-KITTEN Log4Shell DEC /one.cap/three.capSuspected AQUA TIC 
-PANDA Log4Shell activity DEC /one.cap/five.capWIZARD SPIDER 
-demonstrates Log4Shell DEC /one.cap/seven.capDOPPEL SPIDER
-uses Log4Shell DEC /one.cap/nine.capPROPHET
-SPIDER
-uses Log4Shell DEC /three.cap/one.capDEC /two.cap/zero.capDEC  /one.cap/zero.capPartial
-ﬁx
+Log4ShellZero-dayLog4Shellin the WildNOV /one.cap/five.capNOV /two.cap/four.capNOV /two.cap/nine.capLog4j2 RCE reported to ApacheWeaponized exploitreleased as Zero-day
+RCE vulnerabilitydisclosed asCVE-2021-44228Partialﬁx
+DEC /six.capDEC /nine.capXMRig and Muhstikobserved via Log4Shell DEC /one.cap/one.capSuspected NEMESISKITTEN Log4Shell DEC /one.cap/three.capSuspected AQUA TIC PANDA Log4Shell activity DEC /one.cap/five.capWIZARD SPIDER demonstrates Log4Shell DEC /one.cap/seven.capDOPPEL SPIDERuses Log4Shell DEC /one.cap/nine.capPROPHETSPIDER
+uses Log4Shell DEC /three.cap/one.capDEC /two.cap/zero.cap DEC  /one.cap/zero.capPartialﬁx
 ST A Y UP-TO-DA TE ON 
 LOG4SHELL
 Visit the  CrowdStrike 

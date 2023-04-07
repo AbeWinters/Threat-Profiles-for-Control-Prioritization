@@ -210,21 +210,17 @@ AS36352 ColoCrossing
 AS37963 Hangzhou Alibaba Advertising Co., Ltd.
 AS45090 Shenzhen Tencent Computer Systems Co., Ltd.
 AS8100 QuadraNet Enterprises, LLC0%10%20%30%40%50%60%
-JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC
+JANFEBMARAPRMAYJUNJULAUGSEPOCTNOVDEC
 Figure 1 - Top 10 ASNs responsible for hosting the Cobalt Strike payload, Beacon 09BLACKBERRY  /  2022 THREAT REPORT 
 From a geographical perspective, the following countries are the top 10 used for 
-hosting Beacon: JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC0%25%30%35%
-20%
-15%
-10%
-5%
-1.117.0.0/18
+hosting Beacon: JANFEBMARAPRMAYJUNJULAUGSEPOCTNOVDEC0%25%30%35%
+20%15%10%5%1.117.0.0/18
 185.153.196.0/22154.216.64.0/19
 218.253.224.0/19158.247.192.0/18
 31.44.184.0/24168.206.128.0/17
 39.96.0.0/14179.60.150.0/24
 47.98.0.0/15
-JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC0%10%20%30%40%50%60%70%80%90%100%
+JANFEBMARAPRMAYJUNJULAUGSEPOCTNOVDEC0%10%20%30%40%50%60%70%80%90%100%
 China
 NetherlandsGermany
 RussiaHong Kong
@@ -243,15 +239,7 @@ observed throughout 2021 are shown in Figure 5.
 Using Malleable C2 Profiles, Cobalt Strike Beacon can be configured to perform a 
 technique called domain fronting . This is used to route HTTPS traffic via trusted third-
 party content delivery networks. The top 10 hosts used for domain fronting in 2021 were: 
-80
-443
-8080
-9999
-666681
-8888
-8081
-9998
-8099
+80443808099996666818888808199988099
 amazon.profiledefault.profile
 jquery-c2.4.2.profile
 etumbot.profile
@@ -261,18 +249,10 @@ microsoftupdate_getonly.profile
 bingsearch_getonly.profile
 jquery-c2.3.11.profile
 00.20.40.60.81.0
-JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DECatlassian.com
-awsstatic.com
-azureedge.net
-baidu.com
-cloudfront.net
-hldns.ru
-lusongsong.com
-microsoft.com
-qiniu.com
+JANFEBMARAPRMAYJUNJULAUGSEPOCTNOVDECatlassian.comawsstatic.comazureedge.netbaidu.comcloudfront.nethldns.rulusongsong.commicrosoft.comqiniu.com
 us.to
 Figure 6 - Top 10 hosts used by Cobalt Strike Beacon for domain fronting and masquerading 00.20.40.60.81.0
-JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DECatlassian.com
+JANFEBMARAPRMAYJUNJULAUGSEPOCTNOVDECatlassian.com
 awsstatic.com
 azureedge.net
 baidu.com
@@ -334,20 +314,8 @@ malware repositories such as VirusTotal, we discover:
  • If the Team Server is a private, licensed version 
 Even if the Java archive is unavailable to assist with version identification, it is still  
 an extremely valuable clustering mechanism. This is especially true in the case of 
-private and customized builds.JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC0%50%60%
-40%
-30%
-20%
-10%
-0ce7b6482c1f24e42f2935f5026d338d
-1186914578623be126e5f3e8c058d719
-79b6e333634c506f6f710dde179796ed
-81a3eeb8ceb74cf508f6bcfc408e0305
-8ac540617dddcdf575f6dc207abb734494a0ea78a00b04d14d25e55dacba3ac3
-defb5d95ce99e1ebbf421a1a38d9cb64
-e9ae865f5ce035176457188409f6020a
-f61884abc8f4ba7a0caa288b326a70ee
-fd1415e5a5a26b856156bd4ae61a547f
+private and customized builds.JANFEBMARAPRMAYJUNJULAUGSEPOCTNOVDEC0%50%60%40%30%20%10%
+0ce7b6482c1f24e42f2935f5026d338d1186914578623be126e5f3e8c058d71979b6e333634c506f6f710dde179796ed81a3eeb8ceb74cf508f6bcfc408e03058ac540617dddcdf575f6dc207abb734494a0ea78a00b04d14d25e55dacba3ac3defb5d95ce99e1ebbf421a1a38d9cb64e9ae865f5ce035176457188409f6020af61884abc8f4ba7a0caa288b326a70eefd1415e5a5a26b856156bd4ae61a547f
 Figure 9 - The top 10 public keys of Cobalt Strike Team Servers 13BLACKBERRY  /  2022 THREAT REPORT 
 The top 10 Team Server builds in 2021 (based on the PROCINJ_STUB hash value) 
 were as follows: 
@@ -368,7 +336,7 @@ their supply chain is easier than compromising fortified targets. Adversaries ty
 look for the path of least resistance; the supply chain represents the latest evolution  
 in their tradecraft. dd4c91e0e6d9bbf6eefdd84284d67a3fb54afe01ec6a75edf35e1a44f8bd3929b2736f1cbba90d42286fc42bfba74f4d - 4.3a56c813864af878a4c10083ca1578e0a - 4.0a49f5445f01a9f3240eea9e46ee66c81 - 4.3
 32cd41edf0810c5b5f498edf4731cc6d - 4.3222b8f27dbdfba8ddd559eeca27ea648187ab8f98098de95714613f8544c9613 - 4.10ce2f55444e4793516b5afe967be9255 - 4.200000000000000000000000000000000000%10%20%30%40%50%60%70%80%
-JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC
+JANFEBMARAPRMAYJUNJULAUGSEPOCTNOVDEC
 Figure 10 - The top 10 Team Server builds in 2021 14BLACKBERRY  /  2022 THREAT REPORT 
 WHAT IS A SUPPLY CHAIN ATTACK?
 Figure 11 - Topological view of a supply chain attack 
@@ -391,96 +359,26 @@ Once attackers are inside, all information they can access may be exfiltrated,
 including product information, financial information, and personal information. If the 
 compromised organization has a weak security posture, further propagation of this 
 attack may spread to linked organizations and their customer base.  
-365x24x7 
-threat 
-monitoring 
-across the 
-environment, 
-endpoints, 
-and usersRapid incident 
-investigation 
-and mitigationExpert threat 
-identification 
-and hunting 
-across all 
-attack surfacesAdvanced 
-cybersecurity 
-solutions that 
-harness the 
-predictive 
-power of 
-AI and ML Technical 
-experts and 
-experienced 
-cybersecurity 
-analysts
-Be 
-customizableAllow 
-aggregation 
-of alerts
-Have 
-response 
-capabilities
-Have 
-pertinent 
-integrations
-Allow 
-both native 
-and cross 
-telemetry
-Provide an 
-excellent 
-user experience
-Situation
-MonitoringIntelligence
-GatheringImpact
-Analysis
-Incident
-Management
-Threat
-Assessment011 1001
-Escalate
-PrivilegesInternal
-ReconMove
-Laterally
-Maintain
-Presence
-Establish
-Foothold
-Complete
-Mission
-Initial
-Compromise
-Initial
-Recon
-Initial
-CompromiseEstablish
-FootholdEscalate
-PrivilegesInternal
-ReconMove
-LaterallyExfiltrate
-DataEncrypt
-OrganizationVendor
-C Vendor
-A
-Linked
-Organization
-Linked
-Organization
-Personal
-Information
-Financial
-InformationProduct
-InformationVendor
-B
-RoboticsSix Branches ofAIFuzzy
-Logic
-Natural
-Language
-ProcessingExpert
-SystemsNeural
-NetworksMachine
-Learning
+365x24x7 threat monitoring across the environment, endpoints, and usersRapid incident investigation and mitigationExpert threat identification and hunting across all attack surfacesAdvanced cybersecurity solutions that harness the predictive power of AI and ML Technical experts and experienced cybersecurity analysts
+Be customizableAllow aggregation of alerts
+Have response capabilities
+Have pertinent integrations
+Allow both native and cross telemetry
+Provide an excellent user experience
+SituationMonitoring IntelligenceGathering ImpactAnalysis
+ IncidentManagement
+ ThreatAssessment0111001
+EscalatePrivilegesInternalReconMoveLaterallyMaintainPresence
+EstablishFoothold
+ CompleteMission
+ InitialCompromise
+ InitialRecon
+InitialCompromiseEstablishFootholdEscalatePrivilegesInternalReconMoveLaterallyExfiltrateDataEncrypt
+OrganizationVendorCVendorALinkedOrganization
+LinkedOrganization
+PersonalInformationFinancialInformationProductInformationVendorB
+RoboticsSix Branches ofAIFuzzyLogic
+NaturalLanguageProcessingExpertSystemsNeuralNetworksMachineLearning
 15BLACKBERRY  /  2022 THREAT REPORT 
 POTENTIAL IMPACT 
 Depending on the size of the compromised organization’s customer base, the impact 
@@ -737,7 +635,7 @@ the threat actor
 Unknown (aka, 
 UNKN). 
 0%20%40%60%80%100%
-JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC
+JANFEBMARAPRMAYJUNJULAUGSEPOCTNOVDEC
 Banks
 Commercial & Professional Services
 Consumer Durables & Apparel
@@ -763,7 +661,7 @@ affect hospitals or medical facilities, education, not-for-profit, or government
 The DarkSide Group was reportedly shut down  in May 2021, possibly by the U.S. 
 military’s Cyber Command. 
 0%20%40%60%80%100%
-JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC
+JANFEBMARAPRMAYJUNJULAUGSEPOCTNOVDEC
 Automobiles & Components
 Banks
 Commercial & Professional Services
@@ -797,7 +695,7 @@ of the most troubling
 ransomware threats  
 in the wild.
 0%20%40%60%80%100%
-JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC
+JANFEBMARAPRMAYJUNJULAUGSEPOCTNOVDEC
 Banks
 Capital Goods
 Commercial & Professional Services
@@ -831,7 +729,7 @@ Transportation
 InsuranceBanks
 Commercial & Professional Services
 Health Care Services & Equipment0%20%40%60%80%100%
-JAN FEB MAR MAY APR JUN JUL AUG SEP OCT NOV DEC26
+JANFEBMARMAYAPRJUN JULAUGSEPOCTNOVDEC26
 BLACKBERRY  /  2022 THREAT REPORT RAGNAR LOCKER
 Ragnar Locker ransomware made international headlines for its attacks against 
 a Taiwanese manufacturer of high-performance DRAM modules and NAND Flash 
@@ -860,7 +758,7 @@ Retail & Wholesale Trade
 Food, Beverage & TobaccoBanks
 Capital Goods
 Commercial & Professional Services0%20%40%60%80%100%
-JUL AUG SEP OCT NOV DEC
+JULAUGSEPOCTNOVDEC
 Figure 16 - Industries attacked by Hive, 2021 27
 BLACKBERRY  /  2022 THREAT REPORT INFOSTEALERS 
 REDLINE 
@@ -885,7 +783,7 @@ via COVID-19-
 themed phishing  
 email campaigns.
 0%20%40%60%80%100%
-JAN FEB MAR APR MAY JUN JUL AUG SEP
+JANFEBMARAPRMAYJUNJULAUGSEP
 Capital Goods
 Commercial & Professional Services
 Education
@@ -928,7 +826,7 @@ UtilitiesReal Estate
 Retail & Wholesale Trade
 Technology - Software
 Telecommunication Services0%20%40%60%80%100%
-JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC
+JANFEBMARAPRMAYJUNJULAUGSEPOCTNOVDEC
 Figure 18 - Industries attacked by Agent Tesla, 2021 29
 BLACKBERRY  /  2022 THREAT REPORT FICKER 
 Ficker is a malicious infostealer that is sold and distributed on underground Russian  
@@ -956,7 +854,7 @@ legitimate paid services
 like Spotify and 
 YouTube Premium™.
 0%20%40%60%80%100%
-JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC
+JANFEBMARAPRMAYJUNJULAUGSEPOCTNOVDEC
 Banks
 Capital Goods
 Commercial & Professional Services
@@ -979,7 +877,7 @@ Insurance
 Public SectorFood, Beverage & Tobacco Banks
 Commercial & Professional Services
 Diversified Financials0%20%40%60%80%100%
-JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC
+JANFEBMARAPRMAYJUNJULAUGSEPOCTNOVDEC
 Figure 20 - Industries attacked by Hancitor, 2021 31BLACKBERRY  /  2022 THREAT REPORT 
 ALL TOP 10 THREATS 
 OCCURRENCES OF THE TOP 10 THREATS IN 2021
@@ -996,7 +894,7 @@ using Cylance® AI, learn to predict emerging malware families and variants by t
 on existing samples drawn from the threat landscape. This approach gives AI-driven 
 cybersecurity the ability to detect both known and zero-day threats before they can 
 impact their targets.  0%20%40%60%80%100%
-JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC
+JANFEBMARAPRMAYJUNJULAUGSEPOCTNOVDEC
 Agent Tesla
 Avaddon
 ContiDarkSide
@@ -1026,17 +924,8 @@ The AI model represented in this test was created in October 2015. It was deploy
 the BlackBerry® Protect agent version 1320. The numbers in Figure 22 show how many 
 months in advance our model could have protected customers from each threat before  
 it was discovered. 
-RedLine
-Ficker
-Avaddon
-Agent Tesla
-Hive
-Ragnar Locker
-DarkSide
-REvil
-Conti
-Hancitor*
-0 10 20 30 40 50 60 70 80
+RedLineFickerAvaddonAgent TeslaHiveRagnar LockerDarkSideREvilContiHancitor*
+01020304050607080
 Figure 22 - BlackBerry Predictive Advantage, in months, over the top 10 threats to our customers
 *NOTE: Hancitor is not represented in the chart as its discovery pre-dates October 2015.33BLACKBERRY  /  2022 THREAT REPORT 
 SCIENCE  DATA34BLACKBERRY  /  2022 THREAT REPORT 
@@ -1175,96 +1064,25 @@ information to exfiltrate. They may use it for intelligence purposes, often in p
 of political or economic advantage. Conversely, ransomware groups often look for 
 anything valuable that could increase the likelihood of getting paid. Frequent favorites 
 include targeting databases that may contain customer or financial information. 
-365x24x7 
-threat 
-monitoring 
-across the 
-environment, 
-endpoints, 
-and usersRapid incident 
-investigation 
-and mitigationExpert threat 
-identification 
-and hunting 
-across all 
-attack surfacesAdvanced 
-cybersecurity 
-solutions that 
-harness the 
-predictive 
-power of 
-AI and ML Technical 
-experts and 
-experienced 
-cybersecurity 
-analysts
-Be 
-customizableAllow 
-aggregation 
-of alerts
-Have 
-response 
-capabilities
-Have 
-pertinent 
-integrations
-Allow 
-both native 
-and cross 
-telemetry
-Provide an 
-excellent 
-user experience
-Situation
-MonitoringIntelligence
-GatheringImpact
-Analysis
-Incident
-Management
-Threat
-Assessment011 1001
-Escalate
-PrivilegesInternal
-ReconMove
-Laterally
-Maintain
-Presence
-Establish
-Foothold
-Complete
-Mission
-Initial
-Compromise
-Initial
-Recon
-Initial
-CompromiseEstablish
-FootholdEscalate
-PrivilegesInternal
-ReconMove
-LaterallyExfiltrate
-DataEncrypt
-OrganizationVendor
-C Vendor
-A
-Linked
-Organization
-Linked
-Organization
-Personal
-Information
-Financial
-InformationProduct
-InformationVendor
-B
-RoboticsSix Branches ofAIFuzzy
-Logic
-Natural
-Language
-ProcessingExpert
-SystemsNeural
-NetworksMachine
-Learning
+365x24x7 threat monitoring across the environment, endpoints, and usersRapid incident investigation and mitigationExpert threat identification and hunting across all attack surfacesAdvanced cybersecurity solutions that harness the predictive power of AI and ML Technical experts and experienced cybersecurity analysts
+Be customizableAllow aggregation of alerts
+Have response capabilities
+Have pertinent integrations
+Allow both native and cross telemetry
+Provide an excellent user experience
+SituationMonitoring IntelligenceGathering ImpactAnalysis
+ IncidentManagement
+ ThreatAssessment0111001
+EscalatePrivilegesInternalReconMoveLaterallyMaintainPresence
+EstablishFoothold
+ CompleteMission
+ InitialCompromise
+ InitialRecon
+InitialCompromiseEstablishFootholdEscalatePrivilegesInternalReconMoveLaterallyExfiltrateDataEncrypt
+OrganizationVendorCVendorALinkedOrganizationLinkedOrganization
+PersonalInformationFinancialInformationProductInformationVendorB
+RoboticsSix Branches ofAIFuzzyLogic
+NaturalLanguageProcessingExpertSystemsNeuralNetworksMachineLearning
 39
 BLACKBERRY  /  2022 THREAT REPORT In the public eye, size really does matter when it comes to headlines and data leakage. 
 Therefore, profit-seeking threat actors will attempt to grab as much as they can while 
@@ -1367,96 +1185,25 @@ Attackers typically gain access equivalent to that of the application they explo
 and use that to compromise the host. This is one of many reasons why the principle 
 of least privilege  matters. In addition to following best practices, EPP software should 
 contain layers of defense to include script blocking and memory protection. The goal Figure 24 - Typical attack lifecycle
-365x24x7 
-threat 
-monitoring 
-across the 
-environment, 
-endpoints, 
-and usersRapid incident 
-investigation 
-and mitigationExpert threat 
-identification 
-and hunting 
-across all 
-attack surfacesAdvanced 
-cybersecurity 
-solutions that 
-harness the 
-predictive 
-power of 
-AI and ML Technical 
-experts and 
-experienced 
-cybersecurity 
-analysts
-Be 
-customizableAllow 
-aggregation 
-of alerts
-Have 
-response 
-capabilities
-Have 
-pertinent 
-integrations
-Allow 
-both native 
-and cross 
-telemetry
-Provide an 
-excellent 
-user experience
-Situation
-MonitoringIntelligence
-GatheringImpact
-Analysis
-Incident
-Management
-Threat
-Assessment011 1001
-Escalate
-PrivilegesInternal
-ReconMove
-Laterally
-Maintain
-Presence
-Establish
-Foothold
-Complete
-Mission
-Initial
-Compromise
-Initial
-Recon
-Initial
-CompromiseEstablish
-FootholdEscalate
-PrivilegesInternal
-ReconMove
-LaterallyExfiltrate
-DataEncrypt
-OrganizationVendor
-C Vendor
-A
-Linked
-Organization
-Linked
-Organization
-Personal
-Information
-Financial
-InformationProduct
-InformationVendor
-B
-RoboticsSix Branches ofAIFuzzy
-Logic
-Natural
-Language
-ProcessingExpert
-SystemsNeural
-NetworksMachine
-Learning
+365x24x7 threat monitoring across the environment, endpoints, and usersRapid incident investigation and mitigationExpert threat identification and hunting across all attack surfacesAdvanced cybersecurity solutions that harness the predictive power of AI and ML Technical experts and experienced cybersecurity analysts
+Be customizableAllow aggregation of alerts
+Have response capabilities
+Have pertinent integrations
+Allow both native and cross telemetry
+Provide an excellent user experience
+SituationMonitoring IntelligenceGathering ImpactAnalysis
+ IncidentManagement
+ ThreatAssessment0111001
+EscalatePrivilegesInternalReconMoveLaterallyMaintainPresence
+EstablishFoothold
+ CompleteMission
+ InitialCompromise
+ InitialRecon
+InitialCompromiseEstablishFootholdEscalatePrivilegesInternalReconMoveLaterallyExfiltrateDataEncrypt
+OrganizationVendorCVendorALinkedOrganizationLinkedOrganization
+PersonalInformationFinancialInformationProductInformationVendorB
+RoboticsSix Branches ofAIFuzzyLogic
+NaturalLanguageProcessingExpertSystemsNeuralNetworksMachineLearning
 42
 BLACKBERRY  /  2022 THREAT REPORT 42BLACKBERRY  /  2022 THREAT REPORT 
 is to make it extremely difficult for an attacker to achieve each step in the attack 
@@ -1495,12 +1242,7 @@ vulnerabilities and an ever-evolving threat landscape.
  •  Prevention is key. The ability to recover from backups does not address the  
 double extortion tactic derived from attackers threatening to sell stolen data.Ways threat actors 
 can get paid
-Threatening to 
-sell stolen dataPAY
-NOW
-Unlocking 
-encrypted dataSelling 
-stolen data 43
+Threatening to sell stolen dataPAYNOWUnlocking encrypted dataSelling stolen data 43
 BLACKBERRY  /  2022 THREAT REPORT 43BLACKBERRY  /  2022 THREAT REPORT 
 PROTECTING CRITICAL INFRASTRUCTURE 
 Every organization, in every vertical industry sector, runs the risk of breach, 
@@ -1574,96 +1316,26 @@ Facebook, and Amazon.
 ML is classified into two different categories: supervised and unsupervised. These 
 classifications describe the ways ML models learn to classify input data into the 
 correct output assumptions–in other words, how they make accurate predictions.  Figure 25 - Six Branches Of AI
-365x24x7 
-threat 
-monitoring 
-across the 
-environment, 
-endpoints, 
-and usersRapid incident 
-investigation 
-and mitigationExpert threat 
-identification 
-and hunting 
-across all 
-attack surfacesAdvanced 
-cybersecurity 
-solutions that 
-harness the 
-predictive 
-power of 
-AI and ML Technical 
-experts and 
-experienced 
-cybersecurity 
-analysts
-Be 
-customizableAllow 
-aggregation 
-of alerts
-Have 
-response 
-capabilities
-Have 
-pertinent 
-integrations
-Allow 
-both native 
-and cross 
-telemetry
-Provide an 
-excellent 
-user experience
-Situation
-MonitoringIntelligence
-GatheringImpact
-Analysis
-Incident
-Management
-Threat
-Assessment011 1001
-Escalate
-PrivilegesInternal
-ReconMove
-Laterally
-Maintain
-Presence
-Establish
-Foothold
-Complete
-Mission
-Initial
-Compromise
-Initial
-Recon
-Initial
-CompromiseEstablish
-FootholdEscalate
-PrivilegesInternal
-ReconMove
-LaterallyExfiltrate
-DataEncrypt
-OrganizationVendor
-C Vendor
-A
-Linked
-Organization
-Linked
-Organization
-Personal
-Information
-Financial
-InformationProduct
-InformationVendor
-B
-RoboticsSix Branches ofAIFuzzy
-Logic
-Natural
-Language
-ProcessingExpert
-SystemsNeural
-NetworksMachine
-Learning
+365x24x7 threat monitoring across the environment, endpoints, and usersRapid incident investigation and mitigationExpert threat identification and hunting across all attack surfacesAdvanced cybersecurity solutions that harness the predictive power of AI and ML Technical experts and experienced cybersecurity analysts
+Be customizableAllow aggregation of alerts
+Have response capabilities
+Have pertinent integrations
+Allow both native and cross telemetry
+Provide an excellent user experience
+SituationMonitoring IntelligenceGathering ImpactAnalysis
+ IncidentManagement
+ ThreatAssessment0111001
+EscalatePrivilegesInternalReconMoveLaterallyMaintainPresence
+EstablishFoothold
+ CompleteMission
+ InitialCompromise
+ InitialRecon
+InitialCompromiseEstablishFootholdEscalatePrivilegesInternalReconMoveLaterallyExfiltrateDataEncrypt
+OrganizationVendorCVendorALinkedOrganization
+LinkedOrganization
+PersonalInformationFinancialInformationProductInformationVendorB
+RoboticsSix Branches ofAIFuzzyLogic
+NaturalLanguageProcessingExpertSystemsNeuralNetworksMachineLearning
 45
 BLACKBERRY  /  2022 THREAT REPORT Supervised learning is an assisted process where the math algorithm is guided to 
 predict the outcomes from the input of a data training set. With this method, humans 
@@ -1850,96 +1522,25 @@ capabilities. In short, effective XDR products should:
 Of course, even the best XDR solutions cannot stop threats by themselves. Some XDR 
 platforms may include prevention-first technologies, AI-assisted analysis, and automation, 
 but human specialists must still determine what qualifies as a threat in their environment. 
-365x24x7 
-threat 
-monitoring 
-across the 
-environment, 
-endpoints, 
-and usersRapid incident 
-investigation 
-and mitigationExpert threat 
-identification 
-and hunting 
-across all 
-attack surfacesAdvanced 
-cybersecurity 
-solutions that 
-harness the 
-predictive 
-power of 
-AI and ML Technical 
-experts and 
-experienced 
-cybersecurity 
-analysts
-Be 
-customizableAllow 
-aggregation 
-of alerts
-Have 
-response 
-capabilities
-Have 
-pertinent 
-integrations
-Allow 
-both native 
-and cross 
-telemetry
-Provide an 
-excellent 
-user experience
-Situation
-MonitoringIntelligence
-GatheringImpact
-Analysis
-Incident
-Management
-Threat
-Assessment011 1001
-Escalate
-PrivilegesInternal
-ReconMove
-Laterally
-Maintain
-Presence
-Establish
-Foothold
-Complete
-Mission
-Initial
-Compromise
-Initial
-Recon
-Initial
-CompromiseEstablish
-FootholdEscalate
-PrivilegesInternal
-ReconMove
-LaterallyExfiltrate
-DataEncrypt
-OrganizationVendor
-C Vendor
-A
-Linked
-Organization
-Linked
-Organization
-Personal
-Information
-Financial
-InformationProduct
-InformationVendor
-B
-RoboticsSix Branches ofAIFuzzy
-Logic
-Natural
-Language
-ProcessingExpert
-SystemsNeural
-NetworksMachine
-Learning
+365x24x7 threat monitoring across the environment, endpoints, and usersRapid incident investigation and mitigationExpert threat identification and hunting across all attack surfacesAdvanced cybersecurity solutions that harness the predictive power of AI and ML Technical experts and experienced cybersecurity analysts
+Be customizableAllow aggregation of alerts
+Have response capabilities
+Have pertinent integrations
+Allow both native and cross telemetry
+Provide an excellent user experience
+SituationMonitoring IntelligenceGathering ImpactAnalysis
+ IncidentManagement
+ ThreatAssessment0111001
+EscalatePrivilegesInternalReconMoveLaterallyMaintainPresence
+EstablishFoothold
+ CompleteMission
+ InitialCompromise
+ InitialRecon
+InitialCompromiseEstablishFootholdEscalatePrivilegesInternalReconMoveLaterallyExfiltrateDataEncrypt
+OrganizationVendorCVendorALinkedOrganizationLinkedOrganization
+PersonalInformationFinancialInformationProductInformationVendorB
+RoboticsSix Branches ofAIFuzzyLogic
+NaturalLanguageProcessingExpertSystemsNeuralNetworksMachineLearning
 50
 BLACKBERRY  /  2022 THREAT REPORT All of the threat telemetry XDR gathers from primary and third-party solutions must 
 ultimately be interpreted by trained analysts. This can make managed XDR services an 
@@ -1997,96 +1598,25 @@ Managed XDR can offer organizations around-the-clock access to seasoned
 cybersecurity professionals using state-of-the-art threat detection and response  
 tools. This can give organizations considerable peace of mind and allow them to  
 focus on their primary mission instead of worrying about cyberattacks.
-365x24x7 
-threat 
-monitoring 
-across the 
-environment, 
-endpoints, 
-and usersRapid incident 
-investigation 
-and mitigationExpert threat 
-identification 
-and hunting 
-across all 
-attack surfacesAdvanced 
-cybersecurity 
-solutions that 
-harness the 
-predictive 
-power of 
-AI and ML Technical 
-experts and 
-experienced 
-cybersecurity 
-analysts
-Be 
-customizableAllow 
-aggregation 
-of alerts
-Have 
-response 
-capabilities
-Have 
-pertinent 
-integrations
-Allow 
-both native 
-and cross 
-telemetry
-Provide an 
-excellent 
-user experience
-Situation
-MonitoringIntelligence
-GatheringImpact
-Analysis
-Incident
-Management
-Threat
-Assessment011 1001
-Escalate
-PrivilegesInternal
-ReconMove
-Laterally
-Maintain
-Presence
-Establish
-Foothold
-Complete
-Mission
-Initial
-Compromise
-Initial
-Recon
-Initial
-CompromiseEstablish
-FootholdEscalate
-PrivilegesInternal
-ReconMove
-LaterallyExfiltrate
-DataEncrypt
-OrganizationVendor
-C Vendor
-A
-Linked
-Organization
-Linked
-Organization
-Personal
-Information
-Financial
-InformationProduct
-InformationVendor
-B
-RoboticsSix Branches ofAIFuzzy
-Logic
-Natural
-Language
-ProcessingExpert
-SystemsNeural
-NetworksMachine
-Learning
+365x24x7 threat monitoring across the environment, endpoints, and usersRapid incident investigation and mitigationExpert threat identification and hunting across all attack surfacesAdvanced cybersecurity solutions that harness the predictive power of AI and ML Technical experts and experienced cybersecurity analysts
+Be customizableAllow aggregation of alerts
+Have response capabilities
+Have pertinent integrations
+Allow both native and cross telemetry
+Provide an excellent user experience
+SituationMonitoring IntelligenceGathering ImpactAnalysis
+ IncidentManagement
+ ThreatAssessment0111001
+EscalatePrivilegesInternalReconMoveLaterallyMaintainPresence
+EstablishFoothold
+ CompleteMission
+ InitialCompromise
+ InitialRecon
+InitialCompromiseEstablishFootholdEscalatePrivilegesInternalReconMoveLaterallyExfiltrateDataEncrypt
+OrganizationVendorCVendorALinkedOrganizationLinkedOrganization
+PersonalInformationFinancialInformationProductInformationVendorB
+RoboticsSix Branches ofAIFuzzyLogic
+NaturalLanguageProcessingExpertSystemsNeuralNetworksMachineLearning
 52
 BLACKBERRY  /  2022 THREAT REPORT EXPANDING THE ROLE OF NETWORK SECURITY AND AI/ML  
 IN PREVENTING ZERO-DAY ATTACKS 
@@ -2426,96 +1956,25 @@ collaboration with all affected stakeholders. All involved staff and third-party
 need to be familiar with the organization’s standard operating procedures prior to a 
 critical event occurrence. Conducting simulated crisis management exercises can 
 raise awareness, preparedness, and ultimately reduce the impacts of critical events.  
-365x24x7 
-threat 
-monitoring 
-across the 
-environment, 
-endpoints, 
-and usersRapid incident 
-investigation 
-and mitigationExpert threat 
-identification 
-and hunting 
-across all 
-attack surfacesAdvanced 
-cybersecurity 
-solutions that 
-harness the 
-predictive 
-power of 
-AI and ML Technical 
-experts and 
-experienced 
-cybersecurity 
-analysts
-Be 
-customizableAllow 
-aggregation 
-of alerts
-Have 
-response 
-capabilities
-Have 
-pertinent 
-integrations
-Allow 
-both native 
-and cross 
-telemetry
-Provide an 
-excellent 
-user experience
-Situation
-MonitoringIntelligence
-GatheringImpact
-Analysis
-Incident
-Management
-Threat
-Assessment011 1001
-Escalate
-PrivilegesInternal
-ReconMove
-Laterally
-Maintain
-Presence
-Establish
-Foothold
-Complete
-Mission
-Initial
-Compromise
-Initial
-Recon
-Initial
-CompromiseEstablish
-FootholdEscalate
-PrivilegesInternal
-ReconMove
-LaterallyExfiltrate
-DataEncrypt
-OrganizationVendor
-C Vendor
-A
-Linked
-Organization
-Linked
-Organization
-Personal
-Information
-Financial
-InformationProduct
-InformationVendor
-B
-RoboticsSix Branches ofAIFuzzy
-Logic
-Natural
-Language
-ProcessingExpert
-SystemsNeural
-NetworksMachine
-Learning
+365x24x7 threat monitoring across the environment, endpoints, and usersRapid incident investigation and mitigationExpert threat identification and hunting across all attack surfacesAdvanced cybersecurity solutions that harness the predictive power of AI and ML Technical experts and experienced cybersecurity analysts
+Be customizableAllow aggregation of alerts
+Have response capabilities
+Have pertinent integrations
+Allow both native and cross telemetry
+Provide an excellent user experience
+SituationMonitoring IntelligenceGathering ImpactAnalysis
+ IncidentManagement
+ ThreatAssessment0111001
+EscalatePrivilegesInternalReconMoveLaterallyMaintainPresence
+EstablishFoothold
+ CompleteMission
+ InitialCompromise
+ InitialRecon
+InitialCompromiseEstablishFootholdEscalatePrivilegesInternalReconMoveLaterallyExfiltrateDataEncrypt
+OrganizationVendorCVendorALinkedOrganizationLinkedOrganization
+PersonalInformationFinancialInformationProductInformationVendorB
+RoboticsSix Branches ofAIFuzzyLogic
+NaturalLanguageProcessingExpertSystemsNeuralNetworksMachineLearning
 61
 BLACKBERRY  /  2022 THREAT REPORT 
 61CEM isn’t confined to large-scale disasters, but includes addressing events with a 
