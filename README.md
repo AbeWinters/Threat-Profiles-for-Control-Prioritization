@@ -1,6 +1,8 @@
-# Threat Report Analyzer
-This repositoty contains a [Jupyter Notebook](./report-analyzer.ipynb) with code to analyze threat reports on threats and threat actors. The reports are in PDF format and can be found in [reports](reports), containing reports grouped per year in subfolders.
-The end goal is to generate a threat profile for an industry with prioritized actors and TTPs, and use this to prioritize security controls.
+# Control prioritization using sector-based threat profiles
+This repositoty contains various notebooks with code to analyze determine active threat actors targeting a sector. Based on their used TTPs, controls will be prioritized. 
+The notebooks contain various approaches to reach this goal, and are part of the masters thesis of Abe Winters.
+The current control frameworks implemented are:
+- NIST SP 800-53 rev.5
 
 ## High level overview
 ![high level overview](./docs/images/High%20level%20methodology.png)
@@ -12,8 +14,11 @@ To run the notebooks, clone this repository and install the required packages us
 
 ## The notebooks
 Based on the three methods from the thesis, three models will be tested. 
-At first, the skimming method is implemented based on the resulting [spreadsheet](./Threat%20reports.xlsx) build from skimming the reports.
-This list is used to create a basis of the possible threats and actors and the reports are scanned using these search words. The result is a generated dictionary of the number of occurences per report. This is further enhanced with data from public sources to rank actors and ttps, and finally prioritize controls. This pipeline can be found in [01. Manual extraction.ipynb](./Method%201.ipynb)
+At first, the skimming method is implemented based on the resulting [spreadsheet](./Threat%20reports.xlsx) build from skimming the reports. 
+The reports are in PDF format and can be found in [reports](reports), containing reports grouped per year in subfolders.
+This list is used to create a basis of the possible threats and actors and the reports are scanned using these search words. The result is a generated dictionary of the number of occurences per report. This is further enhanced with data from public sources to rank actors and ttps, and finally prioritize controls. This pipeline can be found in [Method 1.ipynb](./Method%201.ipynb)
+
+The second method is based on operation dates. An interval can be selected, and actors are retrieved based on their activity within that period. The actor weights are determined by the amount of activity within the timeframe. The pipeline can be found in [Method 2.ipynb](./Method%202.ipynb). A future addition to the actor weight function is weighing recent operations heavier than other operations.
 
 ## Sources
 This repository makes use of the following sources:
