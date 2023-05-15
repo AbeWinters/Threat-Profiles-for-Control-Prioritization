@@ -20,6 +20,9 @@ This list is used to create a basis of the possible threats and actors and the r
 
 The second method is based on operation dates. An interval can be selected, and actors are retrieved based on their activity within that period. The actor weights are determined by the amount of activity within the timeframe. The pipeline can be found in [Method 2.ipynb](./Method%202.ipynb). A future addition to the actor weight function is weighing recent operations heavier than other operations.
 
+## Mappings
+Within the [mappings](./data/mappings/) folder exist spreadsheets containing mappings to and from control frameworks. The notebook [attck-nist-mappings.ipynb](./data/mappings/attck-nist-mappings.ipynb) explores mappings between MITRE ATT&CK and NIST SP-800 53 r5. The notebook [cis-mappings.ipynb](./data/mappings/cis-mappings.ipynb) creates mappings by leveraging the CIS Controls, since there exist many mappings to and from this control set.
+
 ## Sources
 This repository makes use of the following sources:
 - [MITRE ATT&CK](https://attack.mitre.org/). To access the data, their [attackcti](https://attackcti.com/intro.html) package is used. 
