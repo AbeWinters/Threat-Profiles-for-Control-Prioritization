@@ -14,11 +14,19 @@ To run the notebooks, clone this repository and install the required packages us
 
 ## The notebooks
 Based on the three methods from the thesis, three models will be tested. 
+- [Method 1](./Method%201.ipynb): Threat-report skimming
+- [Method 2](./Method%202.ipynb): Threat-report scanning
+- [Method 3](): Operation-based
+- [Method 3.1](./Method%203_1.ipynb): Based on number of operations
+- [Method 3.2](): Based on newness of actor
+
 At first, the skimming method is implemented based on the resulting [spreadsheet](./Threat%20reports.xlsx) build from skimming the reports. 
 The reports are in PDF format and can be found in [reports](reports), containing reports grouped per year in subfolders.
 This list is used to create a basis of the possible threats and actors and the reports are scanned using these search words. The result is a generated dictionary of the number of occurences per report. This is further enhanced with data from public sources to rank actors and ttps, and finally prioritize controls. This pipeline can be found in [Method 1.ipynb](./Method%201.ipynb)
 
-The second method is based on operation dates. An interval can be selected, and actors are retrieved based on their activity within that period. The actor weights are determined by the amount of activity within the timeframe. The pipeline can be found in [Method 2.ipynb](./Method%202.ipynb). A future addition to the actor weight function is weighing recent operations heavier than other operations.
+The second method is somewhat based on the first method, but does not require skimming the reports. A basis of actor names is retrieved and used to scan the threat reports. This method can be found in [Method 2.ipynb](./Method%202.ipynb)
+
+The third method is based on operation dates. An interval can be selected, and actors are retrieved based on their activity within that period. The actor weights are determined by the amount of activity within the timeframe. The pipeline can be found in [Method 3_1.ipynb](./Method%203_1.ipynb). A future addition to the actor weight function is weighing recent operations heavier than other operations.
 
 ## Mappings
 Within the [mappings](./data/mappings/) folder exist spreadsheets containing mappings to and from control frameworks. The notebook [attck-nist-mappings.ipynb](./data/mappings/attck-nist-mappings.ipynb) explores mappings between MITRE ATT&CK and NIST SP-800 53 r5. The notebook [cis-mappings.ipynb](./data/mappings/cis-mappings.ipynb) creates mappings by leveraging the CIS Controls, since there exist many mappings to and from this control set.
