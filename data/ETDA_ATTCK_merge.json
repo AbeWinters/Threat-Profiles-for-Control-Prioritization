@@ -85,7 +85,8 @@
       "2022-08",
       "2022-08",
       "2022-10",
-      "2023-03"
+      "2023-03",
+      "2023-06"
     ],
     "etda_operation_year": [
       "2013",
@@ -121,6 +122,7 @@
       "2022",
       "2022",
       "2022",
+      "2023",
       "2023"
     ],
     "country": "RU",
@@ -269,8 +271,14 @@
     "etda_aliases": [
       "SideWinder",
       "Rattlesnake",
+      "Razor Tiger",
       "T-APT-04",
-      "APT-C-17"
+      "APT-C-17",
+      "Hardcore Nationalist",
+      "HN2",
+      "APT-Q-39",
+      "BabyElephant",
+      "GroupA21"
     ],
     "etda_first_seen": "2012",
     "etda_url": "https://apt.etda.or.th/cgi-bin/showcard.cgi?u=4e925967-099e-4708-9bca-ade4890d847b",
@@ -278,11 +286,13 @@
       "2019-03",
       "2021-06",
       "2022-03",
-      "2022-05"
+      "2022-05",
+      "2022-11"
     ],
     "etda_operation_year": [
       "2019",
       "2021",
+      "2022",
       "2022",
       "2022"
     ],
@@ -303,7 +313,8 @@
       "Nepal",
       "Pakistan",
       "Qatar",
-      "Sri Lanka"
+      "Sri Lanka",
+      "Turkey"
     ],
     "mitre_attack_ttps": [
       "T1574.002",
@@ -1008,15 +1019,22 @@
       "2020-12",
       "2021",
       "2021-05",
+      "2021-05",
       "2021-06",
       "2021-09",
       "2022-01",
       "2022 Early",
       "2022-10",
+      "2023",
       "2023-02",
       "2023-03",
       "2023-03",
-      "2023-03"
+      "2023-03",
+      "2023-05",
+      "2023-05",
+      "2023-05",
+      "2023-05",
+      "2023-05"
     ],
     "etda_operation_year": [
       "2013",
@@ -1039,9 +1057,16 @@
       "2021",
       "2021",
       "2021",
+      "2021",
       "2022",
       "2022",
       "2022",
+      "2023",
+      "2023",
+      "2023",
+      "2023",
+      "2023",
+      "2023",
       "2023",
       "2023",
       "2023",
@@ -3409,7 +3434,10 @@
       "2022 Late",
       "2022 Late",
       "2023-03",
-      "2023-03"
+      "2023-03",
+      "2023-05",
+      "2023-06",
+      "2023-06"
     ],
     "etda_operation_year": [
       "2007",
@@ -3484,6 +3512,9 @@
       "2022",
       "2022",
       "2022",
+      "2023",
+      "2023",
+      "2023",
       "2023",
       "2023"
     ],
@@ -4541,7 +4572,8 @@
       "2022 Mid",
       "2023",
       "2023-03",
-      "2023-03"
+      "2023-03",
+      "2023-05"
     ],
     "etda_operation_year": [
       "2014",
@@ -4572,6 +4604,7 @@
       "2022",
       "2022",
       "2022",
+      "2023",
       "2023",
       "2023",
       "2023"
@@ -4920,6 +4953,7 @@
       "Metushy",
       "Social Network Team",
       "Nylon Typhoon",
+      "Flea",
       "Operation “Ke3chang”",
       "Operation “MirageFox”"
     ],
@@ -4937,7 +4971,8 @@
       "2019-09",
       "2020-05",
       "2021-08",
-      "2022-04"
+      "2022-04",
+      "2022 Late"
     ],
     "etda_operation_year": [
       "2010",
@@ -4951,6 +4986,7 @@
       "2019",
       "2020",
       "2021",
+      "2022",
       "2022"
     ],
     "country": "CN",
@@ -5169,7 +5205,8 @@
       "2020-12",
       "2021-06",
       "2021-10",
-      "2022-01"
+      "2022-01",
+      "2023-03"
     ],
     "etda_operation_year": [
       "2017",
@@ -5190,7 +5227,8 @@
       "2020",
       "2021",
       "2021",
-      "2022"
+      "2022",
+      "2023"
     ],
     "country": "RU",
     "motivation": [
@@ -5306,6 +5344,7 @@
       "Grey-Cloud",
       "Grizzly Steppe",
       "Forest Blizzard",
+      "BlueDelta",
       "Operation “Pawn Storm”",
       "Operation “Russian Doll”",
       "Operation “Komplex”",
@@ -5375,9 +5414,11 @@
       "2021-06",
       "2021-09",
       "2022-02",
+      "2022-02",
       "2022-04",
       "2022-06",
-      "2022-09"
+      "2022-09",
+      "2023-04"
     ],
     "etda_operation_year": [
       "2011",
@@ -5442,7 +5483,9 @@
       "2022",
       "2022",
       "2022",
-      "2022"
+      "2022",
+      "2022",
+      "2023"
     ],
     "country": "RU",
     "motivation": [
@@ -6604,7 +6647,8 @@
       "Black Alicanto",
       "Copernicium",
       "TA444",
-      "Sapphire Sleet"
+      "Sapphire Sleet",
+      "TAG-71"
     ],
     "etda_first_seen": "2014",
     "etda_url": "https://apt.etda.or.th/cgi-bin/showcard.cgi?u=a979f6ac-99b3-4810-9362-94187db06784",
@@ -6622,7 +6666,9 @@
       "2018-12",
       "2021-11",
       "2022",
-      "2022-10"
+      "2022-09",
+      "2022-10",
+      "2022-12"
     ],
     "etda_operation_year": [
       "2015",
@@ -6637,6 +6683,8 @@
       "2018",
       "2018",
       "2021",
+      "2022",
+      "2022",
       "2022",
       "2022"
     ],
@@ -6937,7 +6985,9 @@
       "2021-06",
       "2021-11",
       "2021 Late",
-      "2023-04"
+      "2022 Late",
+      "2023-04",
+      "2023-05"
     ],
     "etda_operation_year": [
       "2017",
@@ -6962,6 +7012,8 @@
       "2021",
       "2021",
       "2021",
+      "2022",
+      "2023",
       "2023"
     ],
     "country": "IR",
@@ -7245,7 +7297,8 @@
       "TEMP.Hex",
       "HoneyMyte",
       "Red Lich",
-      "Earth Preta"
+      "Earth Preta",
+      "Camaro Dragon"
     ],
     "etda_first_seen": "2012",
     "etda_url": "https://apt.etda.or.th/cgi-bin/showcard.cgi?u=d8fa62d2-de5c-4c13-8cdf-6428d02bc4d6",
@@ -7265,7 +7318,11 @@
       "2022-06",
       "2022",
       "2022-10",
-      "2023-01"
+      "2023-01",
+      "2023-01",
+      "2023 Early",
+      "2023-04",
+      "2023-05"
     ],
     "etda_operation_year": [
       "2014",
@@ -7283,6 +7340,10 @@
       "2022",
       "2022",
       "2022",
+      "2023",
+      "2023",
+      "2023",
+      "2023",
       "2023"
     ],
     "country": "CN",
@@ -7450,7 +7511,8 @@
       "2022-08",
       "2022-08",
       "2022-10",
-      "2023-03"
+      "2023-03",
+      "2023-06"
     ],
     "etda_operation_year": [
       "2013",
@@ -7486,6 +7548,7 @@
       "2022",
       "2022",
       "2022",
+      "2023",
       "2023"
     ],
     "country": "RU",
@@ -7800,14 +7863,17 @@
     "etda_aliases": [
       "Phantom Panda",
       "Granite Typhoon",
+      "Alloy Taurus",
       "Gallium"
     ],
     "etda_first_seen": "2018",
     "etda_url": "https://apt.etda.or.th/cgi-bin/showcard.cgi?u=8dd3c489-96f1-412f-9eec-60f96a674571",
     "etda_operation_dates": [
+      "2021-09",
       "2022-06"
     ],
     "etda_operation_year": [
+      "2021",
       "2022"
     ],
     "country": "CN",
@@ -8263,7 +8329,10 @@
       "2023-01",
       "2023-02",
       "2023-03",
-      "2023-04"
+      "2023-04",
+      "2023-04",
+      "2023-05",
+      "2023-05"
     ],
     "etda_operation_year": [
       "2012",
@@ -8301,6 +8370,9 @@
       "2022",
       "2022",
       "2022",
+      "2023",
+      "2023",
+      "2023",
       "2023",
       "2023",
       "2023",
@@ -9256,7 +9328,8 @@
       "Lorec53",
       "UAC-0056",
       "Nodaria",
-      "FROZENVISTA"
+      "FROZENVISTA",
+      "Storm-0587"
     ],
     "etda_first_seen": "2021",
     "etda_url": "https://apt.etda.or.th/cgi-bin/showcard.cgi?u=8f37f59a-226c-4059-9222-c5ad769f31ef",
@@ -9420,7 +9493,8 @@
       "2022-06",
       "2022-08",
       "2022-11",
-      "2023-01"
+      "2023-01",
+      "2023-04"
     ],
     "etda_operation_year": [
       "2014",
@@ -9433,6 +9507,7 @@
       "2022",
       "2022",
       "2022",
+      "2023",
       "2023"
     ],
     "country": "RU",
@@ -11460,8 +11535,12 @@
     ],
     "etda_first_seen": "2014",
     "etda_url": "https://apt.etda.or.th/cgi-bin/showcard.cgi?u=982ea477-0c28-490e-87d6-3f43da257cae",
-    "etda_operation_dates": [],
-    "etda_operation_year": [],
+    "etda_operation_dates": [
+      "2020"
+    ],
+    "etda_operation_year": [
+      "2020"
+    ],
     "country": "RU",
     "motivation": [
       "Information theft and espionage"
@@ -11793,7 +11872,8 @@
       "2021-09",
       "2021-10",
       "2021-11",
-      "2021-11"
+      "2021-11",
+      "2023-04"
     ],
     "etda_operation_year": [
       "2020",
@@ -11821,7 +11901,8 @@
       "2021",
       "2021",
       "2021",
-      "2021"
+      "2021",
+      "2023"
     ],
     "country": "UA",
     "motivation": [
@@ -12594,17 +12675,20 @@
       "Curium",
       "Marcella Flores",
       "Houseblend",
-      "Crimson Sandstorm"
+      "Crimson Sandstorm",
+      "Operation “Fata Morgana”"
     ],
     "etda_first_seen": "2018",
     "etda_url": "https://apt.etda.or.th/cgi-bin/showcard.cgi?u=8e5c68c0-c16a-4d8f-8829-14d27ab8cd32",
     "etda_operation_dates": [
       "2019-09",
-      "2020-11"
+      "2020-11",
+      "2023-05"
     ],
     "etda_operation_year": [
       "2019",
-      "2020"
+      "2020",
+      "2023"
     ],
     "country": "IR",
     "motivation": [
@@ -12613,6 +12697,7 @@
     "victim_industries": [
       "Defense",
       "IT",
+      "Shipping and Logistics",
       "Maritime and Shipbuilding"
     ],
     "victim_countries": [
@@ -13667,6 +13752,7 @@
     "etda_name": "Aggah",
     "etda_aliases": [
       "Operation “Roma225”",
+      "Operation “Red Deer”",
       "Aggah"
     ],
     "etda_first_seen": "2018",
@@ -13680,7 +13766,8 @@
       "2020-05",
       "2020-05",
       "2021-07",
-      "2021-10"
+      "2021-10",
+      "2022-06"
     ],
     "etda_operation_year": [
       "2018",
@@ -13691,7 +13778,8 @@
       "2020",
       "2020",
       "2021",
-      "2021"
+      "2021",
+      "2022"
     ],
     "country": "None Provided",
     "motivation": [
@@ -13757,10 +13845,12 @@
     "etda_first_seen": "2020",
     "etda_url": "https://apt.etda.or.th/cgi-bin/showcard.cgi?u=50c0c8a2-3842-4e7a-aad8-270c1793e3e1",
     "etda_operation_dates": [
-      "2022-02"
+      "2022-02",
+      "2023-05"
     ],
     "etda_operation_year": [
-      "2022"
+      "2022",
+      "2023"
     ],
     "country": "IR",
     "motivation": [
@@ -13849,8 +13939,13 @@
       "2023-01",
       "2023-02",
       "2023-02",
+      "2023-02",
       "2023-03",
-      "2023-03"
+      "2023-03",
+      "2023-05",
+      "2023-05",
+      "2023-06",
+      "2023-06"
     ],
     "etda_operation_year": [
       "2021",
@@ -13875,6 +13970,11 @@
       "2022",
       "2022",
       "2022",
+      "2023",
+      "2023",
+      "2023",
+      "2023",
+      "2023",
       "2023",
       "2023",
       "2023",
@@ -14154,8 +14254,12 @@
     ],
     "etda_first_seen": "2020",
     "etda_url": "https://apt.etda.or.th/cgi-bin/showcard.cgi?u=4362a46c-19a1-444e-9755-a46be517f039",
-    "etda_operation_dates": [],
-    "etda_operation_year": [],
+    "etda_operation_dates": [
+      "2023-04"
+    ],
+    "etda_operation_year": [
+      "2023"
+    ],
     "country": "CN",
     "motivation": [
       "Information theft and espionage"
@@ -14170,9 +14274,11 @@
     ],
     "victim_countries": [
       "China",
+      "Fiji",
       "Indonesia",
       "Malaysia",
       "Pakistan",
+      "Philippines",
       "Taiwan",
       "Thailand",
       "Ukraine"
@@ -14254,6 +14360,45 @@
     ],
     "victim_countries": [
       "UK"
+    ],
+    "mitre_attack_ttps": "Not Available"
+  },
+  {
+    "mitre_attack_id": "Not Available",
+    "mitre_attack_name": "Not Available",
+    "mitre_attack_aliases": "Not Available",
+    "mitre_attack_created": "Not Available",
+    "mitre_attack_last_modified": "Not Available",
+    "mitre_url": "Not Available",
+    "etda_id": "f929ecc7-3be3-4fee-bb7d-3bf5762e6b3d",
+    "etda_name": "Bad Magic, RedStinger",
+    "etda_aliases": [
+      "Bad Magic",
+      "RedStinger",
+      "CloudWizard"
+    ],
+    "etda_first_seen": "2020",
+    "etda_url": "https://apt.etda.or.th/cgi-bin/showcard.cgi?u=f929ecc7-3be3-4fee-bb7d-3bf5762e6b3d",
+    "etda_operation_dates": [
+      "2020",
+      "2023-05"
+    ],
+    "etda_operation_year": [
+      "2020",
+      "2023"
+    ],
+    "country": "None Provided",
+    "motivation": [
+      "Information theft and espionage"
+    ],
+    "victim_industries": [
+      "Defense",
+      "Food and Agriculture",
+      "Government",
+      "Transportation"
+    ],
+    "victim_countries": [
+      "Ukraine"
     ],
     "mitre_attack_ttps": "Not Available"
   },
@@ -14516,12 +14661,14 @@
       "Daggerfly",
       "Bronze Highland"
     ],
-    "etda_first_seen": "2014",
+    "etda_first_seen": "2012",
     "etda_url": "https://apt.etda.or.th/cgi-bin/showcard.cgi?u=8c9d0ce1-0e92-4de2-b8e0-053b16ad37ed",
     "etda_operation_dates": [
+      "2020",
       "2022-11"
     ],
     "etda_operation_year": [
+      "2020",
       "2022"
     ],
     "country": "CN",
@@ -14532,10 +14679,16 @@
       "Telecommunications"
     ],
     "victim_countries": [
+      "China",
       "Hong Kong",
       "India",
+      "Macao",
       "Malaysia",
-      "Taiwan"
+      "Myanmar",
+      "Nigeria",
+      "Philippines",
+      "Taiwan",
+      "Vietnam"
     ],
     "mitre_attack_ttps": "Not Available"
   },
@@ -14648,6 +14801,44 @@
       "UAE",
       "UK",
       "USA"
+    ],
+    "mitre_attack_ttps": "Not Available"
+  },
+  {
+    "mitre_attack_id": "Not Available",
+    "mitre_attack_name": "Not Available",
+    "mitre_attack_aliases": "Not Available",
+    "mitre_attack_created": "Not Available",
+    "mitre_attack_last_modified": "Not Available",
+    "mitre_url": "Not Available",
+    "etda_id": "4f64a76f-0650-49dd-9386-d7813916463a",
+    "etda_name": "Cadet Blizzard",
+    "etda_aliases": [
+      "DEV-0586",
+      "Operation “Bleeding Bear”",
+      "Cadet Blizzard"
+    ],
+    "etda_first_seen": "2020",
+    "etda_url": "https://apt.etda.or.th/cgi-bin/showcard.cgi?u=4f64a76f-0650-49dd-9386-d7813916463a",
+    "etda_operation_dates": [
+      "2022-01"
+    ],
+    "etda_operation_year": [
+      "2022"
+    ],
+    "country": "RU",
+    "motivation": [
+      "Information theft and espionage",
+      "Sabotage and destruction"
+    ],
+    "victim_industries": [
+      "Government",
+      "IT",
+      "Law enforcement",
+      "NGOs"
+    ],
+    "victim_countries": [
+      "Ukraine"
     ],
     "mitre_attack_ttps": "Not Available"
   },
@@ -14813,9 +15004,13 @@
     ],
     "etda_first_seen": "2021",
     "etda_url": "https://apt.etda.or.th/cgi-bin/showcard.cgi?u=832c145a-c7d3-43b4-9f9e-6998371616d7",
-    "etda_operation_dates": [],
-    "etda_operation_year": [],
-    "country": "None Provided",
+    "etda_operation_dates": [
+      "2023-06"
+    ],
+    "etda_operation_year": [
+      "2023"
+    ],
+    "country": "CN",
     "motivation": [
       "Information theft and espionage"
     ],
@@ -15406,11 +15601,14 @@
     ],
     "victim_industries": [
       "Defense",
+      "Education",
       "Government",
       "Non-profit organizations"
     ],
     "victim_countries": [
+      "Belgium",
       "Bosnia and Herzegovina",
+      "Brunei",
       "Cambodia",
       "Indonesia",
       "Malaysia",
@@ -15735,7 +15933,8 @@
       "2019-12",
       "2020-05",
       "2020",
-      "2022-08"
+      "2022-08",
+      "2023-06"
     ],
     "etda_operation_year": [
       "2019",
@@ -15743,7 +15942,8 @@
       "2019",
       "2020",
       "2020",
-      "2022"
+      "2022",
+      "2023"
     ],
     "country": "None Provided",
     "motivation": [
@@ -16207,7 +16407,9 @@
       "2023-03",
       "2023-03",
       "2023-03",
-      "2023-03"
+      "2023-03",
+      "2023-04",
+      "2023-05"
     ],
     "etda_operation_year": [
       "2019",
@@ -16235,6 +16437,8 @@
       "2022",
       "2022",
       "2022",
+      "2023",
+      "2023",
       "2023",
       "2023",
       "2023",
@@ -16625,6 +16829,39 @@
       "Thailand",
       "USA",
       "Vietnam"
+    ],
+    "mitre_attack_ttps": "Not Available"
+  },
+  {
+    "mitre_attack_id": "Not Available",
+    "mitre_attack_name": "Not Available",
+    "mitre_attack_aliases": "Not Available",
+    "mitre_attack_created": "Not Available",
+    "mitre_attack_last_modified": "Not Available",
+    "mitre_url": "Not Available",
+    "etda_id": "b52e71cb-4ee3-414d-bc3e-de5bfdd7b830",
+    "etda_name": "GoldenJackal",
+    "etda_aliases": [
+      "GoldenJackal"
+    ],
+    "etda_first_seen": "2019",
+    "etda_url": "https://apt.etda.or.th/cgi-bin/showcard.cgi?u=b52e71cb-4ee3-414d-bc3e-de5bfdd7b830",
+    "etda_operation_dates": [],
+    "etda_operation_year": [],
+    "country": "None Provided",
+    "motivation": [
+      "Information theft and espionage"
+    ],
+    "victim_industries": [
+      "Government"
+    ],
+    "victim_countries": [
+      "Afghanistan",
+      "Azerbaijan",
+      "Iran",
+      "Iraq",
+      "Pakistan",
+      "Turkey"
     ],
     "mitre_attack_ttps": "Not Available"
   },
@@ -17194,6 +17431,35 @@
     "mitre_attack_created": "Not Available",
     "mitre_attack_last_modified": "Not Available",
     "mitre_url": "Not Available",
+    "etda_id": "afabb609-17a9-4c1f-b288-0500ed42ec51",
+    "etda_name": "Lancefly",
+    "etda_aliases": [
+      "Lancefly"
+    ],
+    "etda_first_seen": "2018",
+    "etda_url": "https://apt.etda.or.th/cgi-bin/showcard.cgi?u=afabb609-17a9-4c1f-b288-0500ed42ec51",
+    "etda_operation_dates": [],
+    "etda_operation_year": [],
+    "country": "None Provided",
+    "motivation": [
+      "Information theft and espionage"
+    ],
+    "victim_industries": [
+      "Aviation",
+      "Education",
+      "Government",
+      "Telecommunications"
+    ],
+    "victim_countries": "None Provided",
+    "mitre_attack_ttps": "Not Available"
+  },
+  {
+    "mitre_attack_id": "Not Available",
+    "mitre_attack_name": "Not Available",
+    "mitre_attack_aliases": "Not Available",
+    "mitre_attack_created": "Not Available",
+    "mitre_attack_last_modified": "Not Available",
+    "mitre_url": "Not Available",
     "etda_id": "32d0e917-c901-4101-9f00-7b16dcfb5868",
     "etda_name": "BeagleBoyz",
     "etda_aliases": [
@@ -17447,12 +17713,17 @@
       "2023-02",
       "2023-02",
       "2023-02",
+      "2023-02",
       "2023-03",
       "2023-03",
       "2023-03",
       "2023-03",
       "2023-04",
-      "2023-04"
+      "2023-04",
+      "2023-04",
+      "2023-04",
+      "2023-05",
+      "2023-06"
     ],
     "etda_operation_year": [
       "2020",
@@ -17502,6 +17773,11 @@
       "2022",
       "2022",
       "2022",
+      "2023",
+      "2023",
+      "2023",
+      "2023",
+      "2023",
       "2023",
       "2023",
       "2023",
@@ -17906,6 +18182,38 @@
     "mitre_attack_created": "Not Available",
     "mitre_attack_last_modified": "Not Available",
     "mitre_url": "Not Available",
+    "etda_id": "863b90f7-7e0a-45d4-b815-072442335e05",
+    "etda_name": "Muddled Libra",
+    "etda_aliases": [
+      "0ktapus",
+      "Scattered Spider",
+      "Scatter Swine",
+      "Muddled Libra"
+    ],
+    "etda_first_seen": "2022",
+    "etda_url": "https://apt.etda.or.th/cgi-bin/showcard.cgi?u=863b90f7-7e0a-45d4-b815-072442335e05",
+    "etda_operation_dates": [],
+    "etda_operation_year": [],
+    "country": "None Provided",
+    "motivation": [
+      "Information theft and espionage",
+      "Financial gain"
+    ],
+    "victim_industries": [
+      "IT",
+      "Technology",
+      "Telecommunications"
+    ],
+    "victim_countries": "None Provided",
+    "mitre_attack_ttps": "Not Available"
+  },
+  {
+    "mitre_attack_id": "Not Available",
+    "mitre_attack_name": "Not Available",
+    "mitre_attack_aliases": "Not Available",
+    "mitre_attack_created": "Not Available",
+    "mitre_attack_last_modified": "Not Available",
+    "mitre_url": "Not Available",
     "etda_id": "7bc83157-e747-4668-ab0d-f343aead75c1",
     "etda_name": "Nazar",
     "etda_aliases": [
@@ -18160,6 +18468,32 @@
       "UK",
       "USA"
     ],
+    "mitre_attack_ttps": "Not Available"
+  },
+  {
+    "mitre_attack_id": "Not Available",
+    "mitre_attack_name": "Not Available",
+    "mitre_attack_aliases": "Not Available",
+    "mitre_attack_created": "Not Available",
+    "mitre_attack_last_modified": "Not Available",
+    "mitre_url": "Not Available",
+    "etda_id": "425b11e0-adbb-4d6f-a5e0-169df11b15bf",
+    "etda_name": "OilAlpha",
+    "etda_aliases": [
+      "TAG-41",
+      "TAG-62",
+      "OilAlpha"
+    ],
+    "etda_first_seen": "2022",
+    "etda_url": "https://apt.etda.or.th/cgi-bin/showcard.cgi?u=425b11e0-adbb-4d6f-a5e0-169df11b15bf",
+    "etda_operation_dates": [],
+    "etda_operation_year": [],
+    "country": "YE",
+    "motivation": [
+      "Information theft and espionage"
+    ],
+    "victim_industries": "None Provided",
+    "victim_countries": "None Provided",
     "mitre_attack_ttps": "Not Available"
   },
   {
@@ -18677,7 +19011,6 @@
       "PUSHCHA",
       "DEV-0257",
       "Storm-0257",
-      "Operation “Bleeding Bear”",
       "Operation “Asylum Ambuscade”",
       "Operation Ghostwriter"
     ],
@@ -18686,7 +19019,6 @@
     "etda_operation_dates": [
       "2021",
       "2021-03",
-      "2022-01",
       "2022-01",
       "2022-02",
       "2022-02",
@@ -18699,7 +19031,6 @@
     "etda_operation_year": [
       "2021",
       "2021",
-      "2022",
       "2022",
       "2022",
       "2022",
@@ -19344,6 +19675,30 @@
       "UK",
       "USA"
     ],
+    "mitre_attack_ttps": "Not Available"
+  },
+  {
+    "mitre_attack_id": "Not Available",
+    "mitre_attack_name": "Not Available",
+    "mitre_attack_aliases": "Not Available",
+    "mitre_attack_created": "Not Available",
+    "mitre_attack_last_modified": "Not Available",
+    "mitre_url": "Not Available",
+    "etda_id": "015b1a7a-7af1-4d86-8ae2-5f5f5b4ef161",
+    "etda_name": "Operation Triangulation",
+    "etda_aliases": [
+      "Operation Triangulation"
+    ],
+    "etda_first_seen": "2023",
+    "etda_url": "https://apt.etda.or.th/cgi-bin/showcard.cgi?u=015b1a7a-7af1-4d86-8ae2-5f5f5b4ef161",
+    "etda_operation_dates": [],
+    "etda_operation_year": [],
+    "country": "None Provided",
+    "motivation": [
+      "Information theft and espionage"
+    ],
+    "victim_industries": "None Provided",
+    "victim_countries": "None Provided",
     "mitre_attack_ttps": "Not Available"
   },
   {
@@ -22602,6 +22957,46 @@
     "mitre_attack_created": "Not Available",
     "mitre_attack_last_modified": "Not Available",
     "mitre_url": "Not Available",
+    "etda_id": "a8b73194-0ca4-41b0-85ff-3793b83e47c0",
+    "etda_name": "Volt Typhoon",
+    "etda_aliases": [
+      "Volt Typhoon"
+    ],
+    "etda_first_seen": "2021",
+    "etda_url": "https://apt.etda.or.th/cgi-bin/showcard.cgi?u=a8b73194-0ca4-41b0-85ff-3793b83e47c0",
+    "etda_operation_dates": [
+      "2023-06"
+    ],
+    "etda_operation_year": [
+      "2023"
+    ],
+    "country": "CN",
+    "motivation": [
+      "Information theft and espionage"
+    ],
+    "victim_industries": [
+      "Construction",
+      "Education",
+      "Government",
+      "IT",
+      "Maritime and Shipbuilding",
+      "Manufacturing",
+      "Telecommunications",
+      "Transportation",
+      "Utilities"
+    ],
+    "victim_countries": [
+      "USA"
+    ],
+    "mitre_attack_ttps": "Not Available"
+  },
+  {
+    "mitre_attack_id": "Not Available",
+    "mitre_attack_name": "Not Available",
+    "mitre_attack_aliases": "Not Available",
+    "mitre_attack_created": "Not Available",
+    "mitre_attack_last_modified": "Not Available",
+    "mitre_url": "Not Available",
     "etda_id": "7ff50a06-a05b-4871-b2d5-1a49dcab389b",
     "etda_name": "Wassonite",
     "etda_aliases": [
@@ -23115,6 +23510,43 @@
       "Turkey",
       "UAE"
     ],
+    "mitre_attack_ttps": "Not Available"
+  },
+  {
+    "mitre_attack_id": "Not Available",
+    "mitre_attack_name": "Not Available",
+    "mitre_attack_aliases": "Not Available",
+    "mitre_attack_created": "Not Available",
+    "mitre_attack_last_modified": "Not Available",
+    "mitre_url": "Not Available",
+    "etda_id": "8384088d-a679-47bb-bff5-957830937ae3",
+    "etda_name": "8220 Gang",
+    "etda_aliases": [
+      "8220 Mining Group",
+      "8220 Gang"
+    ],
+    "etda_first_seen": "2017",
+    "etda_url": "https://apt.etda.or.th/cgi-bin/showcard.cgi?u=8384088d-a679-47bb-bff5-957830937ae3",
+    "etda_operation_dates": [
+      "2021-05",
+      "2022-07",
+      "2022-10",
+      "2022-11",
+      "2023-05"
+    ],
+    "etda_operation_year": [
+      "2021",
+      "2022",
+      "2022",
+      "2022",
+      "2023"
+    ],
+    "country": "None Provided",
+    "motivation": [
+      "Financial gain"
+    ],
+    "victim_industries": "None Provided",
+    "victim_countries": "None Provided",
     "mitre_attack_ttps": "Not Available"
   },
   {
@@ -24604,7 +25036,8 @@
       "2021-04",
       "2021-04",
       "2021-05",
-      "2021-12"
+      "2021-12",
+      "2023-06"
     ],
     "etda_operation_year": [
       "2020",
@@ -24628,7 +25061,8 @@
       "2021",
       "2021",
       "2021",
-      "2021"
+      "2021",
+      "2023"
     ],
     "country": "None Provided",
     "motivation": [

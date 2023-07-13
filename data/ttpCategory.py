@@ -5,6 +5,7 @@ import re
 # Change to False to limit the resulting file to only include the actors that have an entry in MITRE ATT&CK.
 FULL_ETDA = True
 
+print("Retrieving MITRE ATT&CK")
 # MITRE Groups https://attack.mitre.org/groups/
 mitre_actors = requests.get('https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json')
 mitre_actors = mitre_actors.json()
@@ -82,10 +83,12 @@ for mitre_actor in mitre_actor_list:
 
     mitre_actor['TTPs'] = technique_list
 
+print("Retrieving ETDA MISP")
 # ETDA Actors https://apt.etda.or.th/cgi-bin/listgroups.cgi
 etda_actors = requests.get('https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g')
 etda_actors = etda_actors.json()
 
+print("Retrieving ETDA Cards")
 # Build dictionary from alternative ETDA JSON file to include operation dates
 etda_actor_cards = requests.get('https://apt.etda.or.th/cgi-bin/getcard.cgi?g=all&o=j')
 etda_actor_cards = etda_actor_cards.json()
@@ -175,6 +178,8 @@ etda_merged_ids = []
 merge_list = []
 id_check = []
 
+print("Merging...")
+
 for mitre_actor in mitre_actor_list:
     for mitre_variation in mitre_actor['variations_custom']:
         for etda_actor in etda_actor_list:
@@ -260,5 +265,6 @@ if FULL_ETDA:
 
             merge_list.append(merge_dict)
 
+print("Writing to file")
 with open('ETDA_ATTCK_merge.json', 'w', encoding='utf-8') as outfile:
     json.dump(merge_list, outfile, indent=2, ensure_ascii=False)
