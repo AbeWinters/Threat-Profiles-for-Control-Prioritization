@@ -44,7 +44,7 @@ This repository makes use of the following sources:
 
 ## Thesis
 The thesis is is a master's thesis for the Cybersecurity master at the University of Twente, and has been the result of an internship at [Secura](https://www.secura.com/).
-It is written by Abe Winters and can be found via the following [link](/).
+It is written by Abe Winters and can be found via the following [link](/) [will be added once available].
 
 
 <!-- ## Challenges
