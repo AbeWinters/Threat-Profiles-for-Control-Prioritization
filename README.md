@@ -3,6 +3,7 @@ This repositoty contains various notebooks with code to prioritize security cont
 The notebooks contain various approaches to reach this goal, and are part of the masters thesis of Abe Winters.
 The current supported control frameworks implemented are:
 - NIST SP 800-53 rev.5
+- NIST CSF
 - ISO 27001:2013
 - ISO 27001:2022
 - CIS v8
