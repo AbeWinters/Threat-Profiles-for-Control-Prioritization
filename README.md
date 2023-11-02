@@ -1,6 +1,6 @@
 # Control prioritization using sector-based threat profiles
 
-This repositoty contains various notebooks with code to prioritize security controls based on a determined active threat profile for a sector. The threat profile Based on their used TTPs, controls will be prioritized.
+This repository contains various notebooks with code to prioritize security controls based on a determined active threat profile for a sector. The threat profile Based on their used TTPs, controls will be prioritized.
 The notebooks contain various approaches to reach this goal, and are part of the masters thesis of Abe Winters.
 The current supported control frameworks implemented are:
 
@@ -9,6 +9,10 @@ The current supported control frameworks implemented are:
 - ISO 27001:2013
 - ISO 27001:2022
 - CIS v8
+
+In its current state, this repository has not been optimized for ease of use, but left as is from my thesis. This includes code scraps at various places and files that can be removed.
+
+In the near-future, I will focus on cleaning up the repository to present the resulting model as an easy-to-use tool.
 
 ## High level overview
 
@@ -20,18 +24,34 @@ To run the notebooks, clone this repository and install the required packages us
 
 `pip install -r requirements.txt`
 
+## Usage
+
+The model makes use of a merge between MITRE ATT&CK and ETDA Threat Group Cards. A local file is included, but to make sure that the most recent data has been pulled, run the following command:
+
+`python pull_data.py`
+
+The idea is that you set the parameters in the first cell of the notebook, and then run all cels.
+For options for the parameters, see [options.md](./options.md).
+
+The results are written as an Excel spreadsheet within the `results` folder with the following four tabs:
+
+| Tab                         | Content                                                                                                |
+|-----------------------------|--------------------------------------------------------------------------------------------------------|
+| Controls                    | Prioritized controls of the selected control framework, including control identifier, name and weight. |
+| TTP and Control mitigations | TTP and control mappings used in the control prioritization. This sheet can be used to understand to which specific identified TTPs the controls map. |
+| TTPs                        | Weighted TTPs from the identified threat actors in the sector         |
+| Actors                      | Weighted threat actors for the sector          |
+
 ## The notebooks
 
-Based on the three methods from the thesis, three models will be tested. 
+Based on the three methods from the thesis, three models will be tested.
 
 - [Method 1](./Method%201.ipynb): Threat-report skimming
 - [Method 2](./Method%202.ipynb): Threat-report scanning
 - [Method 3](./Method%203.ipynb): Operations
 - [Method X](./Method%20X%20ransomware.ipynb) has been created to work on a predetermined list of TTPs
 
-For options for the parameters, see [options.md](./options.md)
-
-At first, the skimming method is implemented based on the resulting [spreadsheet](./Threat%20reports.xlsx) build from skimming the reports. 
+At first, the skimming method is implemented based on the resulting [spreadsheet](./Threat%20reports.xlsx) build from skimming the reports.
 The reports are in PDF format and can be found in [reports](reports), containing reports grouped per year in subfolders.
 This list is used to create a basis of the possible threats and actors and the reports are scanned using these search words. The result is a generated dictionary of the number of occurences per report. This is further enhanced with data from public sources to rank actors and ttps, and finally prioritize controls. This pipeline can be found in [Method 1.ipynb](./Method%201.ipynb)
 
@@ -47,7 +67,7 @@ Within the [mappings](./data/mappings/) folder exist spreadsheets containing map
 
 This repository makes use of the following sources:
 
-- [MITRE ATT&CK](https://attack.mitre.org/). To access the data, their [mitreattack-python](https://mitreattack-python.readthedocs.io/en/latest/) package is used. 
+- [MITRE ATT&CK](https://attack.mitre.org/). To access the data, their [mitreattack-python](https://mitreattack-python.readthedocs.io/en/latest/) package is used.
 - [ETDA](https://apt.etda.or.th/cgi-bin/aptgroups.cgi)
 - tropChaud's [Categorized Adversary TTPs](https://github.com/tropChaud/Categorized-Adversary-TTPs). This code has been edited to include the full ETDA dataset and include activity dates. This edited fork is published in the following repository: [Categorized Adversary TTPs](https://github.com/AbeWinters/Categorized-Adversary-TTPs)
 
