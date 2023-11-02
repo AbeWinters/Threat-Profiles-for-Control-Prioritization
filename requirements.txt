@@ -1,4 +1,4 @@
-jupyterlab
+jupyter
 pandas
 matplotlib
 PyPDF2==2.12.1
@@ -6,3 +6,4 @@ openpyxl
 seaborn
 attackcti
 xlsxwriter
+mitreattack-python

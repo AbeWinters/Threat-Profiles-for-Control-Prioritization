@@ -266,5 +266,5 @@ if FULL_ETDA:
             merge_list.append(merge_dict)
 
 print("Writing to file")
-with open('ETDA_ATTCK_merge.json', 'w', encoding='utf-8') as outfile:
+with open('data/ETDA_ATTCK_merge.json', 'w', encoding='utf-8') as outfile:
     json.dump(merge_list, outfile, indent=2, ensure_ascii=False)
